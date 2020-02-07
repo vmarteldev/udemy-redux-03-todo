@@ -14,7 +14,7 @@
       #chkTodo
       (change)="marcarTodo(chkTodo.checked)"
     />
-    <label (dblclick)="editarTodo(todo)">{{ todo.texto }}</label>
+    <label (dblclick)="editarTodo()">{{ todo.texto }}</label>
     <button class="destroy" (click)="borrarTodo()"></button>
   </div>
   <input
